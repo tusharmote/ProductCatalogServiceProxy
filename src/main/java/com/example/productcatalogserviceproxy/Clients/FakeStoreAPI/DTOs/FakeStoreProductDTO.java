@@ -1,6 +1,6 @@
-package com.example.productcatalogserviceproxy.DTOs;
+package com.example.productcatalogserviceproxy.Clients.FakeStoreAPI.DTOs;
 
-import com.example.productcatalogserviceproxy.Models.Category;
+import com.example.productcatalogserviceproxy.DTOs.RatingDTO;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -8,12 +8,13 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class ProductDTO {
+public class FakeStoreProductDTO {
     private Long id;
     private String title;
     private String description;
     private Double price;
     private String image;
     private String category;
-    private RatingDTO ratingDTO;
+    private FakeStoreRatingDTO fakeStoreRatingDTO;
+
 }
