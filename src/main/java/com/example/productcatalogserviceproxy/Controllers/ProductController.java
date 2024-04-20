@@ -5,6 +5,7 @@ import com.example.productcatalogserviceproxy.DTOs.ProductDTO;
 import com.example.productcatalogserviceproxy.Models.Category;
 import com.example.productcatalogserviceproxy.Models.Product;
 import com.example.productcatalogserviceproxy.Services.IProductService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.LinkedMultiValueMap;

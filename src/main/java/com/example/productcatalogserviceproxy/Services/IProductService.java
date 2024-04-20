@@ -2,6 +2,7 @@ package com.example.productcatalogserviceproxy.Services;
 
 import com.example.productcatalogserviceproxy.DTOs.ProductDTO;
 import com.example.productcatalogserviceproxy.Models.Product;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

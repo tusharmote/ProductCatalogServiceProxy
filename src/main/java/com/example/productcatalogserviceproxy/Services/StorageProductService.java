@@ -5,7 +5,7 @@ import com.example.productcatalogserviceproxy.Repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+
 public class StorageProductService implements IProductService{
     ProductRepository productRepository;
     StorageProductService(ProductRepository productRepository){
